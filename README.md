@@ -1,4 +1,4 @@
-# Vercel Integration Example Code
+# Vercel Integration Reference Implementation
 
 This app is a reference implementation / proof-of-concept to help realize a likely-common pattern for a Vercel Integration - creating or mapping "project"-like entities in your system to projects in Vercel. The thought here is that an integration will set environment variables which your SDK depends on such that, upon completing the integration, a user installs an integration and the SDK it then things will "just work".
 
