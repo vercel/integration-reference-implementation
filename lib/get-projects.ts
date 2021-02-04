@@ -4,7 +4,7 @@ const responseError = require("./response-error");
 
 module.exports = async ({ token, teamId }) => {
   const query = stringify({ teamId });
-  const res = await fetch(`https://api.vercel.com/v6/projects?${query}`, {
+  const res = await fetch(`https://api.vercel.com/v4/projects?${query}`, {
     headers: {
       Authorization: `Bearer ${token}`,
     },
